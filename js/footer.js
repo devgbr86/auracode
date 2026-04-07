@@ -20,7 +20,6 @@ function renderFooter() {
           <a href="https://github.com/ribeirorep" target="_blank" rel="noopener">GitHub</a>
           <a href="https://linkedin.com/in/gribeirodev" target="_blank" rel="noopener">LinkedIn</a>
         </div>
-      </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 ScriptPRO</span>
