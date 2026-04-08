@@ -112,7 +112,7 @@ function renderHome() {
   app.innerHTML = `
     <section class="home-intro">
       <h1 class="home-title">Fyregrid</h1>
-      <p class="home-subtitle">Conteúdo front-end — focado em quem já sabe o básico e quer ir mais fundo.</p>
+      <p class="home-subtitle">Guias e projetos para programadores e desenvolvedores.</p>
     </section>
 
     <section class="articles-section">
@@ -121,7 +121,7 @@ function renderHome() {
         id="article-search"
         class="article-search"
         type="text"
-        placeholder="Pesquisar artigos…"
+        placeholder="🔍 Pesquisar"
         autocomplete="off"
       />
       <div id="article-list-container">
@@ -158,17 +158,9 @@ async function openArticle(slug) {
 
   app.innerHTML = `
     <article class="markdown-body">${data.html}</article>
-    <div class="back-link-wrap">
-      <a href="#" id="back-to-home">← Voltar</a>
-    </div>
   `;
 
   if (data.meta.title) document.title = data.meta.title + " | Fyregrid";
-
-  document.getElementById("back-to-home").onclick = (e) => {
-    e.preventDefault();
-    navigate("/");
-  };
 
   updateNavActive("/");
   window.scrollTo(0, 0);

@@ -9,7 +9,7 @@ function renderFooter() {
     <div class="footer-inner">
       <div class="footer-about">
         <span class="footer-brand">Fyregrid</span>
-        <p>Artigos, kits e recursos sobre desenvolvimento front-end — focado em quem já sabe o básico e quer ir mais fundo.</p>
+        <p>Artigos, kits e recursos sobre programação e desenvolvimento.</p>
       </div>
 
 
@@ -17,7 +17,7 @@ function renderFooter() {
         <div class="footer-col">
           <span class="footer-col-title">Contato</span>
           <a href="mailto:topverbs@gmail.com">topverbs@gmail.com</a>
-          <a href="https://github.com/ribeirorep" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/fyregrid" target="_blank" rel="noopener">GitHub</a>
           <a href="https://linkedin.com/in/gribeirodev" target="_blank" rel="noopener">LinkedIn</a>
         </div>
     </div>

@@ -15,11 +15,19 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-top: 57px;
+  /* altura da navbar fixa */
 }
 
 /* ─── NAV ─────────────────────────────────────────────── */
 
 #nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #fff;
   padding: 1rem 2rem;
   border-bottom: 1px solid #ddd;
   display: flex;
@@ -361,6 +369,11 @@ body {
 /* ─── RESPONSIVE ─────────────────────────────────────── */
 
 @media (max-width: 600px) {
+  body {
+    padding-top: 49px;
+    /* navbar menor no mobile */
+  }
+
   #nav {
     padding: 0.75rem 1rem;
     gap: 1rem;
@@ -377,5 +390,19 @@ body {
 
   #site-footer {
     padding: 2rem 1rem 1.5rem;
+  }
+
+  .article-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .article-list span {
+    font-size: 0.72rem;
+  }
+
+  .home-title {
+    font-size: 1.6rem;
   }
 }
