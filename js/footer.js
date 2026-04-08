@@ -9,9 +9,9 @@ function renderFooter() {
     <div class="footer-inner">
       <div class="footer-about">
         <span class="footer-brand">Sobre</span>
-        <p>Projeto desenvolvido por Guilherme Ribeiro.
-        <br>Para acessar conteúdo exclusivo, kits, arquivos e PDFs:
-        <br><a href="https://svault.pages.dev" target="_blank" rel="noopener">🔐 SVault</a></p>
+        <p>Projeto desenvolvido por Guilherme Ribeiro.</p>
+        <p>↓ Para acessar conteúdo exclusivo: documentos, códigos e projetos 
+        <br><a href="https://svault.pages.dev" target="_blank" rel="noopener">🔐 Skill Vault</a></p>
       </div>
 
       <div class="footer-col">
