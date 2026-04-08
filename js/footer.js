@@ -8,7 +8,7 @@ function renderFooter() {
   footer.innerHTML = `
     <div class="footer-inner">
       <div class="footer-about">
-        <span class="footer-brand">ScriptPRO</span>
+        <span class="footer-brand">Fyregrid</span>
         <p>Artigos, kits e recursos sobre desenvolvimento front-end — focado em quem já sabe o básico e quer ir mais fundo.</p>
       </div>
 
@@ -22,7 +22,7 @@ function renderFooter() {
         </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 ScriptPRO</span>
+      <span>© 2026 Fyregrid</span>
       <a href="#" id="footer-legal-link">Privacidade e Termos</a>
     </div>
   `;
@@ -50,9 +50,9 @@ function showLegal() {
   const app = document.getElementById("app");
   app.innerHTML = `
     <div class="legal-wrap markdown-body">
-      <h1>Documentos Legais — ScriptPRO</h1>
+      <h1>Documentos Legais — Fyregrid</h1>
       <blockquote>
-        <strong>ScriptPRO</strong> · Microempreendedor Individual<br>
+        <strong>Fyregrid</strong> · Microempreendedor Individual<br>
         Produtos digitais, tutoriais e conteúdo educacional sobre programação<br>
         Última atualização: abril de 2026
       </blockquote>
@@ -68,7 +68,7 @@ function showLegal() {
 
       <h2 id="privacidade">1. Política de Privacidade</h2>
       <h3>1.1 Quem somos</h3>
-      <p>A <strong>ScriptPRO</strong> é uma microempresa individual dedicada à criação e venda de produtos digitais — incluindo PDFs, tutoriais e materiais educacionais sobre programação — e à manutenção de um blog de conteúdo instrucional.</p>
+      <p>A <strong>Fyregrid</strong> é uma microempresa individual dedicada à criação e venda de produtos digitais — incluindo PDFs, tutoriais e materiais educacionais sobre programação — e à manutenção de um blog de conteúdo instrucional.</p>
 
       <h3>1.2 Quais dados coletamos</h3>
       <p><strong>Dados fornecidos por você:</strong> nome, e-mail, dados de pagamento (processados por terceiros), mensagens de contato.</p>
@@ -108,7 +108,7 @@ function showLegal() {
       <p>Leis da República Federativa do Brasil. Foro da comarca do domicílio do titular.</p>
 
       <hr>
-      <p><em>© 2026 ScriptPRO — Todos os direitos reservados.</em></p>
+      <p><em>© 2026 Fyregrid — Todos os direitos reservados.</em></p>
 
       <div class="back-link-wrap">
         <a href="#" id="back-from-legal">← Voltar</a>
@@ -116,7 +116,7 @@ function showLegal() {
     </div>
   `;
 
-  document.title = "Legal | ScriptPRO";
+  document.title = "Legal | Fyregrid";
   document.getElementById("back-from-legal").onclick = (e) => {
     e.preventDefault();
     history.back();

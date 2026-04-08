@@ -108,10 +108,10 @@ function renderArticleList(filter = "") {
 }
 
 function renderHome() {
-  document.title = "ScriptPRO";
+  document.title = "Fyregrid";
   app.innerHTML = `
     <section class="home-intro">
-      <h1 class="home-title">ScriptPRO</h1>
+      <h1 class="home-title">Fyregrid</h1>
       <p class="home-subtitle">Conteúdo front-end — focado em quem já sabe o básico e quer ir mais fundo.</p>
     </section>
 
@@ -163,7 +163,7 @@ async function openArticle(slug) {
     </div>
   `;
 
-  if (data.meta.title) document.title = data.meta.title + " | ScriptPRO";
+  if (data.meta.title) document.title = data.meta.title + " | Fyregrid";
 
   document.getElementById("back-to-home").onclick = (e) => {
     e.preventDefault();
@@ -184,7 +184,7 @@ function renderNotFound() {
       <a href="/" data-link>← Voltar para home</a>
     </div>
   `;
-  document.title = "404 | ScriptPRO";
+  document.title = "404 | Fyregrid";
   bindLinks();
 }
 

@@ -2,7 +2,7 @@
 // Renderiza a página de Kits.
 
 function renderKits() {
-  document.title = "Kits | ScriptPRO";
+  document.title = "Kits | Fyregrid";
   const app = document.getElementById("app");
 
   app.innerHTML = `
