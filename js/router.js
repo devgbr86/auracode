@@ -27,8 +27,8 @@ function resolveRoute(path) {
     return;
   }
 
-  if (path.startsWith('/post/')) {
-    const slug = path.slice('/post/'.length);
+  if (path.startsWith('/p/')) {
+    const slug = path.slice('/p/'.length);
     if (slug) {
       openArticle(slug);
       return;

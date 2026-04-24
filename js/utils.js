@@ -64,7 +64,7 @@ function bindArticleLinks() {
   document.querySelectorAll("[data-article]").forEach((el) => {
     el.onclick = (e) => {
       e.preventDefault();
-      navigate('/post/' + el.getAttribute("data-article"));
+      navigate('/p/' + el.getAttribute("data-article"));
     };
   });
 }

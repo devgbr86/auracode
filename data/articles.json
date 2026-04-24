@@ -1,14 +1,14 @@
 [
      {
-    "slug": "js-book",
-    "title": "📘 EBOOK Programação Web: JS, Git & VSCode",
+    "slug": "gitvscode-book",
+    "title": "📘 EBOOK Manual Completo Git & VSCode",
     "date": "2026-04",
-    "tags": ["ebook", "dev", "javascript"],
+    "tags": ["ebook", "vscode", "git"],
     "description": "Cada capítulo foi pensado para quem está começando — sem assumir que você já sabe nada. Você vai construir projetos reais, passo a passo, do ambiente de desenvolvimento até o deploy, com código que você pode mostrar hoje mesmo no seu GitHub."
   },
    {
     "slug": "coffee-history",
-    "title": "☕ História do Café",
+    "title": "História do Café",
     "date": "2026-04",
     "tags": ["cafe", "dev", "code"],
     "description": "As evidências históricas e botânicas apontam para a região de Kaffa, na Etiópia, como centro de origem da espécie Coffea arabica."
@@ -22,19 +22,12 @@
   },
   {
     "slug": "micro-features",
-    "title": "Arquitetura Baseada em Funcionalidades, Escalabilidade e Manutenibilidade",
+    "title": "Arquitetura Baseada em Funcionalidades e Escalabilidade",
     "date": "2026-04",
     "tags": ["projetos", "frontend", "arquitetura"],
     "description": "A Arquitetura Baseada em Funcionalidades (Feature-Based Architecture - FBA) emerge como uma estratégia poderosa para organizar projetos, focando na entrega de valor através de funcionalidades de negócio independentes e autocontidas."
   },
   {
-    "slug": "blog-front",
-    "title": "Criando um Blog Totalmente Front-end com JavaScript e GitHub Pages",
-    "date": "2026-04",
-    "tags": ["projetos", "frontend", "blog"],
-    "description": "Este artigo detalha a construção de um blog estático, leve e eficiente, utilizando apenas tecnologias front-end: JavaScript puro para a lógica, a biblioteca Marked.js para renderização de Markdown e o GitHub Pages para hospedagem gratuita."
-  },
-     {
     "slug": "guide-links",
     "title": "Guias, links e referências Frontend",
     "date": "2026-04",
