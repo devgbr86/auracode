@@ -1,10 +1,8 @@
 // router.js
 
-const BASE = (
-  location.hostname === '127.0.0.1' ||
-  location.hostname === 'localhost' ||
-  location.hostname.endsWith('.pages.dev')
-) ? '' : '/blog';
+const BASE = location.hostname === '127.0.0.1' || location.hostname === 'localhost'
+  ? ''
+  : '/blog';
 
 // ─── NAVIGATE ────────────────────────────────────────────
 
@@ -37,6 +35,7 @@ function resolveRoute(path) {
     }
   }
 
+  // Redireciona rotas antigas /post/ para /p/ (backward compat)
   if (path.startsWith('/post/')) {
     const slug = path.slice('/post/'.length);
     if (slug) {

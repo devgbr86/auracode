@@ -4,12 +4,8 @@
 <head>
      <meta charset="UTF-8" />
      <script>
-          // Apenas para GitHub Pages — Cloudflare usa _redirects
-          var params = new URLSearchParams(location.search);
-          if (!params.has('path')) {
-               var path = location.pathname + location.search + location.hash;
-               location.replace('/blog/?path=' + encodeURIComponent(path.replace('/blog', '') || '/'));
-          }
+          var path = location.pathname + location.search + location.hash;
+          location.replace('/blog/?path=' + encodeURIComponent(path.replace('/blog', '') || '/'));
      </script>
 </head>
 
