@@ -1,7 +1,7 @@
 # Aprenda a criar Livros/EBooks profissionais usando Markdown + Pandoc
 
 
-<img src="https://github.com/grcodev/grcodev/releases/download/vault/cover.30.png" width="24%" height="24%" style="border-radius:2%;" />
+<img src="https://github.com/grcodev/grcodev/releases/download/vault/mdbook.png" width="24%" height="24%" style="border-radius:2%;" />
 
 
 
