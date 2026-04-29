@@ -25,12 +25,12 @@ const CONFIG = {
     {
       icon:  "📘",
       title: "EBOOK Manual/Tutorial Completo Git & Visual Studio Code",
-      slug:  "gitbook",
+      slug:  "bookgit",
     },
        {
       icon:  "📕",
       title: "Aprenda a criar Livros/EBooks profissionais usando Markdown + Pandoc",
-      slug:  "mdbook",
+      slug:  "bookmd",
     },
   ],
 };
