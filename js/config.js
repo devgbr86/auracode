@@ -18,19 +18,9 @@ const CONFIG = {
 
   products: [
     {
-      icon:  "🛠️",
-      title: "JavaScript Boilerplate Kit + Documentação + README",
-      slug:  "kitjs",
-    },
-    {
-      icon:  "📘",
-      title: "EBOOK Manual/Tutorial Completo Git & Visual Studio Code",
-      slug:  "bookgit",
-    },
-       {
-      icon:  "📕",
-      title: "Aprenda a criar Livros/EBooks profissionais usando Markdown + Pandoc",
-      slug:  "bookmd",
-    },
+      icon:  "📦",
+      title: "PACK: EBooks + Boilerplates + Documentação README + DEPLOY",
+      slug:  "pack",
+    },   
   ],
 };
