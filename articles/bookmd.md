@@ -8,7 +8,7 @@ Aprenda um fluxo prático para transformar texto simples em conteúdo profission
 
 
 
-<img src="https://github.com/grcodev/grcodev/releases/download/vault/md.png" width="75%" height="75%" style="border-radius:2%;" />
+<img src="https://github.com/grcodev/grcodev/releases/download/vault/md.png" width="79%" height="79%" style="border-radius:2%;" />
 
 
 
