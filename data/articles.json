@@ -22,14 +22,14 @@
   },
   {
     "slug": "micro-features",
-    "title": "Arquitetura Baseada em Funcionalidades e Escalabilidade",
+    "title": "Recomendações de Arquiteturas baseadas em Funcionalidades para Sistemas Frontend",
     "date": "2026-04",
     "tags": ["projetos", "frontend", "arquitetura"],
-    "description": "A Arquitetura Baseada em Funcionalidades (Feature-Based Architecture - FBA) emerge como uma estratégia poderosa para organizar projetos, focando na entrega de valor através de funcionalidades de negócio independentes e autocontidas."
+    "description": "Aplicações crescem. Estruturas organizadas por tipo técnico como `components`, `services` e `utils` começam simples, mas rapidamente viram um sistema difícil de navegar."
   },
   {
-    "slug": "guide-links",
-    "title": "Guias, links e referências Frontend",
+    "slug": "resources-links",
+    "title": "Recursos & Links",
     "date": "2026-04",
     "tags": ["guias", "links", "referencias"],
     "description": "O cenário do desenvolvimento front-end está em constante evolução, com novas tecnologias, frameworks e metodologias surgindo a todo momento."

@@ -19,8 +19,8 @@ const CONFIG = {
   products: [
     {
       icon:  "💬",
-      title: "Aulas particulares & Mentorias",
-      slug:  "mentoria",
+      title: "SOBRE/ABOUT",
+      slug:  "about",
     },   
   ],
 };
