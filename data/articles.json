@@ -2,63 +2,63 @@
   {
     "slug": "ebook-git",
     "title": "📘 Manual/Tutorial Completo: Git & Visual Studio Code",
-    "date": "2026-04",
+    "date": "2026",
     "tags": ["git", "ebook", "vscode"],
     "description": "Aprenda as duas ferramentas essenciais para qualquer Desenvolvedor Web. Neste EBook voce vai aprender a instalar/configurar Git e VSCode, configurar extensões Markdown para VSCode, Deploy básico GitHub Pages."
   }, 
     {
     "slug": "ebook-pandoc",
     "title": "📕 Aprenda a criar EBooks profissionais utilizando Markdown + Pandoc",
-    "date": "2026-04",
+    "date": "2026",
     "tags": ["markdown", "ebook", "pandoc"],
     "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."
   }, 
     {
     "slug": "kit-js",
     "title": "🛠️ JavaScript Boilerplate Kit + Documentação README + DEPLOY",
-    "date": "2026-04",
+    "date": "2026",
     "tags": ["boilerplate", "kit", "javascript"],
     "description": "Arquivos + Documentação de Projetos Práticos + Boilerplates JavaScript Frontend/APIs/TypeScript."
   },
    {
     "slug": "coffee-history",
     "title": "História do Café",
-    "date": "2026-04",
+    "date": "2026",
     "tags": ["cafe", "dev", "code"],
     "description": "As evidências históricas e botânicas apontam para a região de Kaffa, na Etiópia, como centro de origem da espécie Coffea arabica."
   },
    {
     "slug": "coffee-nutrition",
     "title": "Composição Nutricional e Efeitos Fisiológicos do Café",
-    "date": "2026-04",
+    "date": "2026",
     "tags": ["dev", "cafe", "code"],
     "description": "O café constitui uma das bebidas mais consumidas globalmente, com estimativas de consumo superior a 2,25 bilhões de xícaras diárias."
   },
   {
     "slug": "micro-features",
     "title": "Recomendações de Arquiteturas baseadas em Funcionalidades para Frontend",
-    "date": "2026-04",
+    "date": "2026",
     "tags": ["projetos", "frontend", "arquitetura"],
     "description": "Aplicações crescem. Estruturas organizadas por tipo técnico como `components`, `services` e `utils` começam simples, mas rapidamente viram um sistema difícil de navegar."
   },
   {
     "slug": "resources-links",
     "title": "Recursos & Links",
-    "date": "2026-04",
+    "date": "2025",
     "tags": ["guias", "links", "referencias"],
     "description": "O cenário do desenvolvimento front-end está em constante evolução, com novas tecnologias, frameworks e metodologias surgindo a todo momento."
   },
   {
     "slug": "intro-javascript",
     "title": "Introdução: JavaScript",
-    "date": "2025-11",
+    "date": "2025",
     "tags": ["javascript", "web", "iniciante"],
     "description": "Primeiros passos com JavaScript no navegador: variáveis, funções e manipulação do DOM."
   },
   {
     "slug": "intro-web",
     "title": "Introdução: Programação Web",
-    "date": "2025-11",
+    "date": "2025",
     "tags": ["programacao", "web", "iniciante"],
     "description": "Um overview sobre como a web funciona: HTTP, navegadores e a estrutura básica de uma página."
   }
